@@ -1,0 +1,1030 @@
+[2024-04-29 06:00:32] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:32] testing.INFO: Query : insert into `categories` (`id`, `name`) values (?, ?)  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:32] testing.INFO: Query : insert into `categories` (`id`, `is_active`, `name`) values (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)  
+[2024-04-29 06:00:32] testing.INFO: Query : select count(*) as aggregate from `categories` where `is_active` = ?  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:32] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `name` = ? where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `is_active`) values (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : select * from `categories` where `description` is null and `is_active` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `description` = ? where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `description` = ? where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `description` = ? where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `description` = ? where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `description` = ? where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `is_active`, `name`) values (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `description` = ? where `description` is null and `is_active` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : select count(*) as aggregate from `categories` where `description` = ? and `is_active` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from `categories` where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : select count(*) as aggregate from `categories` where `is_active` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `is_active`, `name`) values (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : select count(*) as aggregate from `categories` where `is_active` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from `categories` where `description` is null and `is_active` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : select count(*) as aggregate from `categories` where `is_active` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`) values (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`) values (?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:33] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:33] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:33] testing.INFO: Query : update `categories` set `name` = ?, `description` = ? where `id` = ?  
+[2024-04-29 06:00:33] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? limit 1  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null and `stock` <= ?  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `reviews` (`product_id`, `customer_id`, `rating`, `comment`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `reviews` (`product_id`, `customer_id`, `rating`, `comment`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:34] testing.INFO: Query : select `reviews`.*, `products`.`category_id` as `laravel_through_key` from `reviews` inner join `products` on `products`.`id` = `reviews`.`product_id` where `products`.`category_id` = ?  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null and `price` = ?  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:34] testing.INFO: Query : select count(*) as aggregate from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null  
+[2024-04-29 06:00:34] testing.INFO: Query : select count(*) as aggregate from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null and `price` = ?  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `comments` (`title`, `comment`, `email`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:34] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:34] testing.INFO: Query : insert into `comments` (`title`, `comment`, `email`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `wallets` (`amount`, `customer_id`) values (?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `wallets` (`amount`, `customer_id`) values (?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `wallets` (`amount`, `customer_id`) values (?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `customer_id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `viraccs` (`bank`, `va_number`, `wallet_id`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `viraccs`.*, `wallets`.`customer_id` as `laravel_through_key` from `viraccs` inner join `wallets` on `wallets`.`id` = `viraccs`.`wallet_id` where `wallets`.`customer_id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from `customers_likes_products` where (`customer_id` = ? and `product_id` = ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ? and `customers_likes_products`.`created_at` >= ?  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers_likes_products` (`product_id`, `customer_id`, `created_at`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select `products`.*, `customers_likes_products`.`customer_id` as `pivot_customer_id`, `customers_likes_products`.`product_id` as `pivot_product_id`, `customers_likes_products`.`created_at` as `pivot_created_at` from `products` inner join `customers_likes_products` on `products`.`id` = `customers_likes_products`.`product_id` where `customers_likes_products`.`customer_id` = ?  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `images` where `images`.`imageable_type` = ? and `images`.`imageable_id` = ? and `images`.`imageable_id` is not null limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:35] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `wallets` (`amount`, `customer_id`) values (?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:35] testing.INFO: Query : select * from `images` where `images`.`imageable_id` in (?) and `images`.`imageable_type` = ?  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `customers` (`id`, `name`, `email`) values (?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `wallets` (`amount`, `customer_id`) values (?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `customers` where `customers`.`id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `wallets` where `wallets`.`customer_id` in (?)  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `employees` (`id`, `name`, `title`, `salary`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `employees` where `id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `employees` (`id`, `name`, `title`, `salary`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `employees` where `id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `persons` (`first_name`, `last_name`, `updated_at`, `created_at`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : update `persons` set `first_name` = ?, `last_name` = ?, `persons`.`updated_at` = ? where `id` = ?  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `persons` (`first_name`, `last_name`, `updated_at`, `created_at`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `persons` (`first_name`, `last_name`, `address`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `categories` where `categories`.`id` = ? and `is_active` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null order by `price` asc limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`category_id` = ? and `products`.`category_id` is not null order by `price` desc limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `images` where `images`.`imageable_type` = ? and `images`.`imageable_id` = ? and `images`.`imageable_id` is not null limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `vouchers` (`name`, `voucher_code`, `id`) values (?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `comments` (`title`, `comment`, `email`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `vouchers` where `vouchers`.`deleted_at` is null limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `comments` (`title`, `comment`, `email`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `comments` where `comments`.`commentable_type` = ? and `comments`.`commentable_id` = ? and `comments`.`commentable_id` is not null  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `vouchers` (`name`, `voucher_code`, `id`) values (?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `comments` (`title`, `comment`, `email`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `vouchers` where `vouchers`.`deleted_at` is null limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : insert into `comments` (`title`, `comment`, `email`, `commentable_id`, `commentable_type`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?)  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `comments` where `comments`.`commentable_type` = ? and `comments`.`commentable_id` = ? and `comments`.`commentable_id` is not null order by `created_at` desc limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : select * from `comments` where `comments`.`commentable_type` = ? and `comments`.`commentable_id` = ? and `comments`.`commentable_id` is not null order by `created_at` asc limit 1  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:36] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `vouchers` (`name`, `voucher_code`, `id`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `tags` (`id`, `name`) values (?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `taggables` (`tag_id`, `taggable_id`, `taggable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `vouchers` where `vouchers`.`deleted_at` is null limit 1  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `taggables` (`tag_id`, `taggable_id`, `taggable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `products` where `products`.`id` = ? limit 1  
+[2024-04-29 06:00:37] testing.INFO: Query : select `tags`.*, `taggables`.`taggable_id` as `pivot_taggable_id`, `taggables`.`tag_id` as `pivot_tag_id`, `taggables`.`taggable_type` as `pivot_taggable_type` from `tags` inner join `taggables` on `tags`.`id` = `taggables`.`tag_id` where `taggables`.`taggable_id` = ? and `taggables`.`taggable_type` = ?  
+[2024-04-29 06:00:37] testing.INFO: Query : select `vouchers`.*, `taggables`.`tag_id` as `pivot_tag_id`, `taggables`.`taggable_id` as `pivot_taggable_id`, `taggables`.`taggable_type` as `pivot_taggable_type` from `vouchers` inner join `taggables` on `vouchers`.`id` = `taggables`.`taggable_id` where `taggables`.`tag_id` = ? and `taggables`.`taggable_type` = ? and `vouchers`.`deleted_at` is null  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `products`  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `products` where `products`.`id` in (?, ?) and `price` = ?  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `products`  
+[2024-04-29 06:00:37] testing.INFO: [
+    {
+        "id": "1",
+        "name": "Product 1",
+        "description": "Description 1",
+        "price": 0,
+        "stock": 0
+    },
+    {
+        "id": "2",
+        "name": "Product 2",
+        "description": "Description 2",
+        "price": 200,
+        "stock": 0
+    }
+]  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `categories` (`id`, `name`, `description`, `is_active`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `products` (`id`, `name`, `description`, `category_id`, `price`) values (?, ?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `images` (`url`, `imageable_id`, `imageable_type`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `products`  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `categories` where `categories`.`id` in (?) and `is_active` = ?  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `images` where `images`.`imageable_id` in (?, ?) and `images`.`imageable_type` = ?  
+[2024-04-29 06:00:37] testing.INFO: [
+    {
+        "id": "1",
+        "name": "Product 1",
+        "description": "Description 1",
+        "price": 0,
+        "stock": 0,
+        "category": {
+            "id": "FOOD",
+            "name": "Food",
+            "description": "Food Category",
+            "created_at": "1714395637",
+            "is_active": 1
+        },
+        "image": {
+            "id": 172,
+            "url": "https:\/\/www.programmerzamannow.com\/image\/2.jpg",
+            "imageable_id": "1",
+            "imageable_type": "product"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Product 2",
+        "description": "Description 2",
+        "price": 200,
+        "stock": 0,
+        "category": {
+            "id": "FOOD",
+            "name": "Food",
+            "description": "Food Category",
+            "created_at": "1714395637",
+            "is_active": 1
+        },
+        "image": null
+    }
+]  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `vouchers` (`name`, `voucher_code`, `id`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `vouchers` (`name`, `id`, `voucher_code`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `vouchers` (`name`, `voucher_code`, `id`) values (?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `vouchers` where `name` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-04-29 06:00:37] testing.INFO: Query : update `vouchers` set `deleted_at` = ? where `id` = ?  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `vouchers` where `name` = ? and `vouchers`.`deleted_at` is null limit 1  
+[2024-04-29 06:00:37] testing.INFO: Query : select * from `vouchers` limit 1  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from taggables  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from tags  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from employees  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from persons  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from reviews  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from images  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers_likes_products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from products  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from categories  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from vouchers  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from comments  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from viraccs  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from wallets  
+[2024-04-29 06:00:37] testing.INFO: Query : delete from customers  
+[2024-04-29 06:00:37] testing.INFO: Query : insert into `vouchers` (`name`, `is_active`, `id`, `voucher_code`) values (?, ?, ?, ?)  
+[2024-04-29 06:00:37] testing.INFO: Query : select count(*) as aggregate from `vouchers` where `is_active` = ? and `vouchers`.`deleted_at` is null  
+[2024-04-29 06:00:37] testing.INFO: Query : select count(*) as aggregate from `vouchers` where `is_active` = ? and `vouchers`.`deleted_at` is null  
+[2024-04-30 04:16:13] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php:223)
+[stacktrace]
+#0 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-04-30 04:16:17] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php:223)
+[stacktrace]
+#0 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2024-04-30 04:16:21] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php:223)
+[stacktrace]
+#0 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\Users\\ASUS\\laravel\\belajar-laravel-eloquent\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
